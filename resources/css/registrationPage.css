@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   font-family: Arial, Helvetica, sans-serif;
+    background-color: #D8BFD8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 30px 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    max-width: 450px;
+}
+
+h3 {
+    text-align: center;
+      margin-top: 30px;
+      margin-bottom: 20px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 6px;
+    font-size: 14px;
+    border-radius: 8px;
+    outline: none;
+    background-color: #F9F3F9;
+    border: 1px solid #ddd;
+}
+
+
+.form-group input[type="file"] {
+    border: none;
+    padding: 0;
+}
+
+.form-group a{
+    text-decoration: none;
+    font-size: 10px;
+    margin-top: 3px;
+}
+
+
+.form-group p{
+
+    font-size: 10px;
+    margin-top: 3px;
+   padding-bottom: 3px;
+}
+/* name, date of birth, and profile picture */
+.name-dob-profile-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Left section  */
+.left-section {
+    flex: 2;
+    width: 60%;
+}
+
+.right-section {
+    flex: 1;
+    text-align: center;
+    width: 40%;
+}
+
+.password-info {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+#password:focus+.password-info {
+    display: block;
+   
+}
+
+.profile-pic img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #007bff;
+}
+
+.add-button {
+    display: inline-block;
+
+    padding: 4px 6px;
+    font-size: 10px;
+    border-color: #007bff;
+    border-width: 1px; 
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.add-button:hover {
+    background-color: #0056b3;
+}
+
+.form-group textarea {
+    resize: none;
+    height: 60px;
+}
+
+.form-group-row {
+    display: flex;
+    gap: 15px;
+}
+
+.form-group-row .form-group {
+    flex: 1;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+h3 {
+    margin-top: 20px;
+    color: #333;
+}
+#currentLine2{
+    margin-top: 10px;
+}
+#permanentLine2{
+    margin-top: 10px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="date"] {
+    width: 100%;
+    padding: 6px;
+    font-size: 14px;
+    border-radius: 8px;
+    outline: none;
+ 
+}
+.form-group .suggession{
+    font-size: 12px;
+}
+.form-group .addMore{
+    font-size: 12px;
+    color: #007bff;
+}
+
